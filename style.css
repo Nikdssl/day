@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'Carson';
+  src: url("/fonts/Carson.otf");
+  font-style: normal;
+  font-weight: 400;
+}
+
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+  padding: 0 15px;
+}
+
+.triggers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-bottom: 30px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.tabs-triggers-item {
+  font-family: "Carson";
+  font-weight: 900;
+  font-style: normal;
+  white-space: nowrap;
+  padding: 20px 70px;
+  border-radius: 5px;
+  background-color: #c31c3e;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 10px 10px;
+  display: block;
+}
+
+.tabs-content-item {
+  display: none;
+  padding: 20px;
+}
+
+.tabs-content-item--active {
+  display: block;
+}
+
+.tabs-triggers-item--active {
+  background-color: black;
+}
+
+@media (max-width: 907px) {
+  .tabs-triggers-item {
+    padding: 15px 35px;
+    border-radius: 5px;
+    background-color: #c31c3e;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px 5px;
+    display: block;
+  }
+}
+
+@media (max-width: 541px) {
+  .tabs-triggers-item {
+    width: 40%;
+    padding: 15px 35px;
+    border-radius: 5px;
+    background-color: #c31c3e;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px 5px;
+    display: block;
+  }
+}
+/*# sourceMappingURL=style.css.map */
