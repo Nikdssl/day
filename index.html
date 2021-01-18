@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://cdn.jsdelivr.net/clappr/latest/clappr.min.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -47,6 +48,8 @@
 
 
 
+                    <div class="play" id="player"></div>
+                
 
 
 
@@ -56,8 +59,7 @@
 
 
 
-
-
+                    
 
                 </div>
                 <div id="tab-2" class="tabs-content-item">Content 2</div>
@@ -68,4 +70,10 @@
     </div>
     <script src="scripts.js"></script>
 </body>
+<script>
+    var player = new Clappr.Player({
+      source: "https://vod.spartak.com/vod/definst/s83181/spartak/ZakadromTambovvar2.mp4/playlist.m3u8", 
+      parentId: "#player"
+      });
+  </script>
 </html>
