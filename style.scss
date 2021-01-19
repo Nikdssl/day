@@ -285,6 +285,7 @@
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 40px;
+    justify-content: center;
 }
 
 .podval_left{
@@ -336,10 +337,7 @@
 
 .text{
     margin: 40px auto;
-    display: flex;
-    padding-left: 15px;
-    
-    
+    display: flex;  
     justify-content: center;
     align-items: center;
     max-width: 600px;
@@ -348,7 +346,7 @@
 }
 .text_inner{
     
-           
+    max-width: 500px;     
     text-align: center;
     position: relative;
 }
