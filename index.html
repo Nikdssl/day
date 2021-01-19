@@ -5,6 +5,7 @@
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/clappr/latest/clappr.min.js"></script>
     <title>Document</title>    
     <link rel="stylesheet" href="style.css">
 </head>
@@ -52,6 +53,18 @@
                         </div>
                     </div>
                 </div>
+                <div class="center_pleer">
+                <div id="player"></div>
+            </div>
+
+                <div class="text">
+                   
+                        <div class="text_inner">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+                        </div>
+                    
+                </div>
                 <div class="podval">
                     <div class="wrapper">
                         <div class="podval_inner">
@@ -61,7 +74,7 @@
                                     <p>ВЕРСИЕЙ СЕБЯ</p></div>
                                 <div class="podval_left_niz">Почувствуй себя игроком «Спартака»</div>
                             </div>
-                            <div class="podval_right"><div class="transparent">Характер Воля Сила Энергия Выносливость Мотивация Страсть</div></div>
+                            <div class="podval_right">Характер <br>Воля <br>Сила<br> Энергия <br><span class="cherta">Выносливость</span> <br>Мотивация<br> Страсть</div>
 
                         </div>
                     </div>
@@ -70,11 +83,13 @@
 
                 
             </div>
-            </div>
 
+            
+            </div>
+            
         </div>
     
-
+        
 
 
 
@@ -92,9 +107,9 @@
 
 
     </div>
-    <div id="tab-2" class="tabs-content-item"><div id="players"></div></div>
-    <div id="tab-3" class="tabs-content-item">Content 1</div>
-    <div id="tab-4" class="tabs-content-item">Content 2</div>
+    <div id="tab-2" class="tabs-content-item">Content 2 <div id="players"></div></div>
+    <div id="tab-3" class="tabs-content-item">Content 3</div>
+    <div id="tab-4" class="tabs-content-item">Content 4</div>
     </div>
 
 
@@ -103,6 +118,17 @@
 
     <script src="scripts.js"></script>
 </body>
-
+<script>
+    var player = new Clappr.Player({
+      source: "https://vod.spartak.com/vod/definst/s83181/spartak/ZakadromTambovvar2.mp4/playlist.m3u8", 
+      parentId: "#player"
+      });
+  </script>
+  <script>
+    var player = new Clappr.Player({
+      source: "https://vod.spartak.com/vod/definst/s83181/spartak/ZakadromTambovvar2.mp4/playlist.m3u8", 
+      parentId: "#players"
+      });
+  </script>
 
 </html>

@@ -5,11 +5,23 @@
     font-weight: 400;
     }
 
-    @font-face{
+@font-face{
         font-family: 'BebasNeueBold';        
         src: url('fonts/BebasNeueBold.otf');
              font-style:normal;
              font-weight: 600;
+        }
+
+@font-face {
+            font-family: 'Avenir Next Cyr';           
+            src: url('fonts/AvenirNextCyr-MediumItalic.eot');
+            src: local('Avenir Next Cyr Medium Italic'), local('AvenirNextCyr-MediumItalic'),
+                url('fonts/AvenirNextCyr-MediumItalic.eot?#iefix') format('embedded-opentype'),
+                url('fonts/AvenirNextCyr-MediumItalic.woff2') format('woff2'),
+                url('fonts/AvenirNextCyr-MediumItalic.woff') format('woff'),
+                url('fonts/AvenirNextCyr-MediumItalic.ttf') format('truetype');
+            font-weight: 500;
+            font-style: italic;
         }
 
 *,
@@ -272,6 +284,7 @@
 .podval_inner{
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 40px;
 }
 
 .podval_left{
@@ -286,19 +299,19 @@
     background-position: center;
     background-size: cover;
     font-family: "BebasNeueBold";
-    font-size: 20px; 
+    font-size: 40px; 
     color: #ffffff; 
     padding: 50px;
-    width: 200px;
+    text-align: center;
+    
 
 }
 
 .podval_left_niz{
     font-family: "BebasNeueBold";
-    font-size: 20px; 
+    font-size: 40px; 
     color: #c31c3e; 
-    padding: 50px;
-    width: 200px;
+    padding: 50px;    
     text-align: center;
 
 }
@@ -311,12 +324,109 @@
     background-size: cover;
     
     padding: 30px;
-    width: 200px;
-}
-
-.transparent{
     font-family: "BebasNeueBold";
-    font-size: 31px; 
+    font-size: 51px; 
     color:#ffffff;    
     text-align: center;
+    
+}
+
+
+
+
+.text{
+    margin: 40px auto;
+    display: flex;
+    padding-left: 15px;
+    
+    
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    
+
+}
+.text_inner{
+    
+           
+    text-align: center;
+    position: relative;
+}
+
+.text_inner p{
+    font-family: "Avenir Next Cyr";
+    font-size: 25px;
+    font-weight: 500;
+
+}
+
+.text_inner::before{
+content: url(img/kov11.png);
+position: absolute;
+width: 20px;
+height: 15px;
+left: -15px;
+top: -20px;
+
+}
+
+.text_inner::after{
+    content: url(img/kov22.png);
+    position: absolute;
+    width: 20px;
+    height: 15px;
+    right: -5px;
+    bottom: -15px;
+    
+    }
+
+    .cherta{
+        position: relative;
+    }
+
+
+
+.cherta::before{
+content: "";
+position: absolute;
+width: 600px;
+height: 35px;
+color: #c31c3e;
+top: 0;
+left: 0;
+z-index: 999;
+}
+
+@media (max-width: 691px) {
+    .podval_left_top{
+        font-size: 20px;
+    }
+    .podval_left_niz{
+    font-size: 20px;
+    }
+    .podval_right{
+        font-size: 30px;
+    }
+
+    .text_inner p{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 467px) {
+    .podval_left_top{
+        font-size: 14px;
+    }
+    .podval_left_niz{
+    font-size: 14px;
+    }
+    .podval_right{
+        font-size: 14px;
+    }
+}
+
+.center_pleer{
+    display: flex;
+    justify-content: center;
+
 }
