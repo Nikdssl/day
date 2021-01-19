@@ -410,4 +410,27 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+@media screen and (max-width: 650px) {
+  .tabs-content-item {
+    max-width: 100%;
+  }
+  .center_pleer {
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+  }
+  #player,
+  #player > div {
+    max-width: calc(100vw - 37px) !important;
+    width: calc(100vw - 37px) !important;
+    height: calc( (100vw - 37px) * 0.56) !important;
+  }
+  #player > div {
+    position: relative;
+    overflow: hidden;
+  }
+}
 /*# sourceMappingURL=style.css.map */
