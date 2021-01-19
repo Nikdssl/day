@@ -258,4 +258,54 @@
     max-width: 120px;
   }
 }
+
+.podval_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.podval_left {
+  width: 50%;
+  max-width: 500px;
+}
+
+.podval_left_top {
+  background-image: url(img/fon_2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: "BebasNeueBold";
+  font-size: 20px;
+  color: #ffffff;
+  padding: 50px;
+  width: 200px;
+}
+
+.podval_left_niz {
+  font-family: "BebasNeueBold";
+  font-size: 20px;
+  color: #c31c3e;
+  padding: 50px;
+  width: 200px;
+  text-align: center;
+}
+
+.podval_right {
+  background-image: url(img/fon-3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 30px;
+  width: 200px;
+}
+
+.transparent {
+  font-family: "BebasNeueBold";
+  font-size: 31px;
+  color: #ffffff;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */

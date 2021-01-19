@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
-    <script src="https://cdn.jsdelivr.net/clappr/latest/clappr.min.js"></script>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Document</title>    
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
     <div class="wrapper">
         <div class="tabs">
             <div class="triggers">
@@ -16,64 +19,90 @@
                 <a href="#tab-3" class="tabs-triggers-item">ДЕНЬ #3</a>
                 <a href="#tab-4" class="tabs-triggers-item">ДЕНЬ #4</a>
             </div>
-            <div class="tabs-content">
-                <div id="tab-1" class="tabs-content-item">
-                    <div class="header">
-                        <div class="conteiner">
-                            <div class="header_inner">
-                                    <div class="header_left"> 
-                                        <div class="headerleft_txt">                                      
-                                            <p class="header_left_title">МОДЕЛЬ ДЛЯ СБОРКИ</p>
-                                        </div> 
-                                    </div>    
-                                    <div class="header_right">
-                                        
-                                        <div class="verh">
-                                            <img src="img/1.jpeg" alt="">
-                                       
-                                            <img src="img/2.jpeg" alt="">
-                                        </div>
-                                       <div class="niz">
-                                            <img src="img/3.jpeg" alt="">
-                                        
-                                        
-                                            <img src="img/4.jpeg" alt="">
-                                        </div>
-                                    
-                                    </div>                  
-                                
-                            </div>
-                        </div>
-                    </div>
-
-
-
-                    <div class="play" id="player"></div>
-                
-
-
-
-
-
-
-
-
-
-                    
-
-                </div>
-                <div id="tab-2" class="tabs-content-item">Content 2</div>
-                <div id="tab-3" class="tabs-content-item">Content 1</div>
-                <div id="tab-4" class="tabs-content-item">Content 2</div>
-            </div>
         </div>
     </div>
+    
+        <div class="tabs-content">
+            <div class="wrapper">
+                <div id="tab-1" class="tabs-content-item">
+                <div class="header">
+                    <div class="conteiner">
+                        <div class="header_inner">
+                            <div class="header_left">
+                                <div class="headerleft_txt">
+                                    <p class="header_left_title">МОДЕЛЬ ДЛЯ СБОРКИ</p>
+                                </div>
+                            </div>
+                            <div class="header_right">
+
+                                <div class="verh">
+                                    <img src="img/1.jpeg" alt="">
+
+                                    <img src="img/2.jpeg" alt="">
+                                </div>
+                                <div class="niz">
+                                    <img src="img/3.jpeg" alt="">
+
+
+                                    <img src="img/4.jpeg" alt="">
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="podval">
+                    <div class="wrapper">
+                        <div class="podval_inner">
+                            <div class="podval_left">
+                                <div class="podval_left_top">
+                                    <p>СТАНЬ ЛУЧШЕЙ</p> 
+                                    <p>ВЕРСИЕЙ СЕБЯ</p></div>
+                                <div class="podval_left_niz">Почувствуй себя игроком «Спартака»</div>
+                            </div>
+                            <div class="podval_right"><div class="transparent">Характер Воля Сила Энергия Выносливость Мотивация Страсть</div></div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                
+            </div>
+            </div>
+
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <div id="tab-2" class="tabs-content-item"><div id="players"></div></div>
+    <div id="tab-3" class="tabs-content-item">Content 1</div>
+    <div id="tab-4" class="tabs-content-item">Content 2</div>
+    </div>
+
+
+
+
+
     <script src="scripts.js"></script>
 </body>
-<script>
-    var player = new Clappr.Player({
-      source: "https://vod.spartak.com/vod/definst/s83181/spartak/ZakadromTambovvar2.mp4/playlist.m3u8", 
-      parentId: "#player"
-      });
-  </script>
+
+
 </html>
