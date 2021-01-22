@@ -15,8 +15,7 @@
 
 @font-face {
   font-family: 'Avenir Next Cyr';
-  src: url("fonts/AvenirNextCyr-MediumItalic.eot");
-  src: local("Avenir Next Cyr Medium Italic"), local("AvenirNextCyr-MediumItalic"), url("fonts/AvenirNextCyr-MediumItalic.eot?#iefix") format("embedded-opentype"), url("fonts/AvenirNextCyr-MediumItalic.woff2") format("woff2"), url("fonts/AvenirNextCyr-MediumItalic.woff") format("woff"), url("fonts/AvenirNextCyr-MediumItalic.ttf") format("truetype");
+  src: url("fonts/AvenirNextCyr-MediumItalic.eot"), url("fonts/AvenirNextCyr-MediumItalic.eot?#iefix") format("embedded-opentype"), url("fonts/AvenirNextCyr-MediumItalic.woff2") format("woff2"), url("fonts/AvenirNextCyr-MediumItalic.woff") format("woff"), url("fonts/AvenirNextCyr-MediumItalic.ttf") format("truetype");
   font-weight: 500;
   font-style: italic;
 }
@@ -374,6 +373,10 @@
   max-width: 500px;
   text-align: center;
   position: relative;
+  font-family: "Avenir Next Cyr";
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .text_inner p {
