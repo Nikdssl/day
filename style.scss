@@ -177,7 +177,7 @@
         align-items: center;
         width: 100%; 
         
-        padding: 105px 50px;
+        padding: 67px 50px;
         background-color:#c31c3e;  
         border-top: #ffffff 6px solid;  
         border-bottom: #ffffff 6px solid;   
@@ -215,8 +215,11 @@
     .header_right img{
         max-width: 500px;
     }
+
     
-  } 
+    }
+    
+  
   
 //   @media (max-width: 780px) {
 //     .header_left_title{ 
@@ -246,19 +249,19 @@
 	transform: translate(-50%, -50%)
 }
 
-// @media (max-width: 940px) {
+@media (max-width: 780px) {
 
-//     .headerleft_txt::after{
-//         content: "Москва";
-//         position: absolute;
-//         font-family: "BebasNeueBold";
-//         font-size: 20px; 
-//         color: black; 
-//         left: 50%; 
-//         bottom: -3%;   
-//         transform: translate(-50%, -50%)
-//     }
-// }
+    .headerleft_txt::after{
+        content: "Москва";
+        position: absolute;
+        font-family: "BebasNeueBold";
+        font-size: 20px; 
+        color: black; 
+        left: 50%; 
+        bottom: -2%;   
+        transform: translate(-50%, -50%)
+    }
+}
 
 .headerleft_txt::before{
     content: "СПАРТАК";
@@ -298,11 +301,21 @@
     max-width: 450px;
 }
 
+.niz{
+    font-family: "BebasNeueBold";
+    font-size: 100px; 
+    color: #c31c3e; 
+    padding: 10px;    
+    display: flex;
+    justify-content: center;
+    
+}
+
 @media (max-width: 940px) {
    
 
     .niz{
-        font-size: 50px;
+        font-size: 60px;
     }
 
     .header_inner{
@@ -320,27 +333,15 @@
 }
 
 
-@media (max-width: 492px) {
-    .header_right img{
-        max-width: 150px;
+@media (max-width: 478px) {
+    .niz{
+        font-size: 50px;
     }
 }
 
-@media (max-width: 370px) {
-    .header_right img{
-        max-width: 120px;
-    }
-}
 
-.niz{
-    font-family: "BebasNeueBold";
-    font-size: 100px; 
-    color: #c31c3e; 
-    padding: 10px;    
-    display: flex;
-    justify-content: center;
-    
-}
+
+
 
 
 
@@ -393,6 +394,8 @@
     color:#ffffff;    
     text-align: center;
     
+    
+    
 }
 
 
@@ -412,6 +415,7 @@
     max-width: 500px;     
     text-align: center;
     position: relative;
+    
 }
 
 .text_inner p{
@@ -429,6 +433,15 @@ height: 15px;
 left: -15px;
 top: -20px;
 
+}
+
+@media (max-width: 547px) {
+    .text_inner::before{
+       
+        left: -8px;
+        top: -20px;
+    
+}
 }
 
 .text_inner::after{
