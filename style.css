@@ -261,13 +261,13 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .header_right img {
   display: block;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
   -o-object-fit: cover;
      object-fit: cover;
   height: auto;
