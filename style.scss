@@ -296,8 +296,8 @@
     
    
 .header_right img{
-    // display: block;
-    
+    display: block;
+    align-items: flex-start; 
     
     object-fit: cover;
     height: auto;
