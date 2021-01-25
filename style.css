@@ -265,9 +265,9 @@
 
 .header_right img {
   display: block;
-  width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  height: auto;
   max-width: 450px;
 }
 
