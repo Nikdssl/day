@@ -342,7 +342,7 @@
   background-position: center;
   background-size: cover;
   font-family: "BebasNeueBold";
-  font-size: 40px;
+  font-size: 52px;
   color: #ffffff;
   padding: 50px;
   text-align: center;
@@ -350,7 +350,7 @@
 
 .podval_left_niz {
   font-family: "BebasNeueBold";
-  font-size: 40px;
+  font-size: 52px;
   color: #c31c3e;
   padding: 50px;
   text-align: center;
@@ -361,11 +361,12 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 30px;
+  padding: 46px;
   font-family: "BebasNeueBold";
-  font-size: 51px;
+  font-size: 54px;
   color: #ffffff;
   text-align: center;
+  width: 50%;
 }
 
 .text {
