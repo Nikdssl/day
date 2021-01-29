@@ -412,6 +412,14 @@
   font-size: 20px;
 }
 
+.autor2 {
+  display: block;
+  text-align: center;
+  font-family: "BebasNeueBold";
+  font-style: italic;
+  font-size: 12px;
+}
+
 .text_inner::before {
   content: url(img/kov11.png);
   position: absolute;
